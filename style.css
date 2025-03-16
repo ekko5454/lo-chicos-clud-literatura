@@ -103,3 +103,8 @@ nav ul li a {
     color: blue;
     text-decoration: underline;
 }
+#trago {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
