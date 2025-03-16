@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    color: pink;
+    padding: 1em;
+    text-align: center;
+    background-image: url('WhatsApp\ Image\ 2025-03-08\ at\ 2.33.04\ PM\ \(1\).jpeg'); /* Aquí debes poner la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    position: relative;
+    
+}
+
+header h1 {
+    position: relative;
+    z-index: 1;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Añade una capa de color sobre la imagen para mejorar la legibilidad del texto */
+    z-index: 0;
+}
+
+nav {
+    background-color: aliceblue;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3a77ff;
+}
+
+/* #no{
+    padding: 2em;
+    max-width: 1000px;
+    margin: auto;
+    background-image: url(la\ imagen.jpg);
+    background-size: ; */
+    
+.fondo{
+    text-align: center;
+}
+    
+
+
+.fotoiguro{
+    float: left;
+    
+}
+.fotokuro{
+    float: left;
+    
+}
+.fototedi{
+    float: left;
+    
+}
+
+.iguro{
+    border-width: thick ;
+    border-style: dashed ;
+    border-color: blue;
+}
+.kuro{
+    border-width: thick;
+    border-style: dashed;
+    border-color: red;
+}
+.tedi{
+    border-width: thick;
+    border-style: dashed;
+    border-color: chocolate;
+}
+
+.oculto {
+    display: none;
+}
+
+#trigger {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
